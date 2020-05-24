@@ -1,0 +1,56 @@
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    height: 150px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu .div-menu-cima {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu .div-menu-baixo {
+    align-items: center;
+    justify-content: space-around;
+}
+////
+<header>
+        <nav class="menu flex-column">
+            <div class="div-menu-cima flex">
+                <div class="menu-cima">
+                    <ol class="lista1">
+                        <li> <img class="icone"
+                                src=https://images-submarino.b2w.io/zion/manifest/icons/e88a8b93000440b2e52c1e34d212877e.opengraph-image.png
+                                alt="Icone submarino"> </li>
+                        <li> Entrar </li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="O que você tá procurando?">
+            <div class="div-menu-baixo flex">
+                <div class="menu=baixo">
+                    <ol class='lista2'>
+                        <li>Ofertas wow</li>
+                        <li>Baixe o APP</li>
+                        <li>Covid-19 - Orientações</li>
+                        <li>iPhone SE</li>
+                        <li>Literature-se</li>
+
+                    </ol>
+                </div>
+            </div>
+        </nav>
+    </header>

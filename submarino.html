@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Submarino</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/0e821c2cdc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+    <header>
+
+        <img class="faixa-top" id="faixatop"
+            src="https://images-submarino.b2w.io/spacey/2020/05/18/micasasubcasa_topinho.png" alt="faixa-laranja">
+
+        <nav class="menu flex-column" id="navcima">
+            <ol class="lista1 grid">
+                <li class='icon'> <img class="icone"
+                        src=https://cdn.discordapp.com/attachments/542845079371513886/713402681162727425/icone.png
+                        alt="Icone submarino"> </li>
+                <div>
+                    <li class='pesquisa'><input type="search" name="pesquisa" id="pesquisa"
+                            placeholder="O que você tá procurando?"> <i class="fas fa-search" onclick="pesquisar()"></i>
+                    </li>
+                </div>
+                <li class="entrar"><i class="far fa-user-circle user-icon"></i>
+                    <p> Entrar</p>
+                </li>
+                <li class='coração'><a><i class="far fa-heart"></i></a></i></li>
+                <li class='carrinho'><i class="fas fa-shopping-cart"></i></li>
+            </ol>
+        </nav>
+        <nav class="menu baixo" id="navbaixo">
+            <div class="div-menu-baixo">
+                <ol class="lista2 grid">
+                    <li class="vem-ver-lojas">Vem ver as lojas</li>
+                    <li>Baixe o APP</li>
+                    <li>Covid-19 - Orientações</li>
+                    <li>iPhone SE</li>
+                    <li>Literature-se</li>
+                    <li>Super cashback TVs LG</li>
+                    <li>Venda no Sub</li>
+                    <li class="ofwow flex">
+                        <div class="oferta"> Oferta </div>
+                        <div class="wow"> Wow! </div>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+    </header>
+
+    <figure class="pic-line grid">
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/05/20/19_home_atalhos_oquefazernaquarentena_desk.png"
+                alt="cara no celular">
+            <p>O que fazer na quarentena? </p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/05/12/1pmercado_atalho_home_v3.png"
+                alt="carrinho de supermercado">
+            <p>Mercado</p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/04/14/180x180_Atalho_Home-8-caixa.jpg"
+                alt="auxílio emergencial">
+            <p>Auxílio Emergencial</p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/05/06/06_home_atalhos_comercio_desk.png"
+                alt="comercio local">
+            <p>Apoie o comércio local </p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/03/30/Atalho_APP-CuidadoPessoal.jpg" alt="termômetro">
+            <p>Cuidado Pessoal</p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/03/30/Atalho_APP-Fitness.jpg" alt="fitness">
+            <p>Fitness</p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/03/30/Atalho_APP-HomeOffice.jpg" alt="home office">
+            <p>Home Office</p>
+        </div>
+
+        <div class="sug-text"><img class="sug-pictures"
+                src="https://images-submarino.b2w.io/spacey/2020/05/18/14_home_atalhos_infoacess_desk.png"
+                alt="smatphone">
+            <p>Smartphone</p>
+        </div>
+    </figure>
+
+    <figure>
+        <img class='baixeapp'
+            src="https://images-submarino.b2w.io/spacey/2020/05/15/29_micasasubcasa_header_desktop-BAIXE-O-APP.png"
+            alt="baixeapp">
+    </figure>
+
+    <figure>
+        <img class="cashback"
+            src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_destaque_home_desk-MAIO.png"
+            alt="micasa-sucasa">
+    </figure>
+
+    <div>
+        <h2> Se liga nessas ofertas </h2>
+    </div>
+
+    <figure class=" cupons grid">
+        <div class="fogao">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/21/micasasubcasa_cont_6_9.png"
+                alt="fogão mixer">
+            <p>Eletrodomésticos com até R$200 OFF</p>
+        </div>
+
+        <div class=" mixer">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_cont_6_2_desk.png"
+                alt="mixer">
+            <p> Casa tecnológica a partir de R$59,99 </p>
+        </div>
+
+        <div class="ar">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_cont_6_3_desk.png"
+                alt="ar-condicionado">
+            <p>Ar condicionado e climatização com 8% OFF à vista</p>
+        </div>
+
+        <div class="celular">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_cont_6_4_desk.png"
+                alt="tv 4k">
+            <p>TVs 4K em até 12X sem juros + até R$400 de cashback</p>
+        </div>
+
+        <div class="laptop">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_cont_6_5_desk.png"
+                alt="laptop">
+            <p>Informática em 12x sem juros ou até 10% OFF à vista</p>
+        </div>
+
+        <div class="smartphone">
+            <img class="promo" src="https://images-submarino.b2w.io/spacey/2020/05/15/micasasubcasa_cont_6_6_desk.png"
+                alt="smartphone">
+            <p>Smartphones a partir de 12x de R$62,99</p>
+        </div>
+    </figure>
+
+    <figure class="flex aproveita">
+        <div class="cupomlivro">
+            <img src="https://images-submarino.b2w.io/spacey/2020/05/18/micasasubcasa_cont_2_1_desk-duplo1.png"
+                alt="livros">
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/05/18/micasasubcasa_cont_2_2_desk-duplo2.png"
+                alt="acessorios">
+        </div>
+    </figure>
+
+    <div>
+        <h2>Navegue por mais categorias</h2>
+    </div>
+
+    <figure class="grid categorias">
+
+        <div class="moda">
+            <img src="https://images-submarino.b2w.io/spacey/2020/05/07/14_home_atalhos_moda_desk.jpg" alt="moda">
+            <p>Moda</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/05/07/14_home_atalhos_wearable_desk.png"
+                alt="wereables">
+            <p>Wereables</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/30/14_home_atalhos_edom_desk.jpg"
+                alt="eletrodomesticos">
+            <p>Eletrodomésticos
+            </p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/14/14_home_atalhos_bebidas_desk.png" alt="bebidas">
+            <p>Bebidas</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/24/14_home_atalhos_casaeconstrucao_desk.jpg"
+                alt="casa">
+            <p>Casa e Construção</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/30/Atalho_APP-Eletroportateis.jpg"
+                alt="eletroportateis">
+            <p>Eletroportáteis</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/30/14_home_atalhos_beleza_desk.jpg" alt="beleza">
+            <p>Beleza</p>
+        </div>
+
+        <div>
+            <img src="https://images-submarino.b2w.io/spacey/2020/04/30/14_home_atalhos_esportes_desk.jpg"
+                alt="esportes">
+            <p>Esportes</p>
+        </div>
+    </figure>
+
+    <section class="seucadastro flex">
+        <div class="cadastro flex-column">
+            <p>Faz seu cadastro pra receber as melhores ofertas do Submarino antes de todo mundo!</p>
+            <div class="flex">
+                <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+                <button class="button-cadastrar"> Cadastrar </button>
+            </div>
+            <a href="#">Política de privacidade</a>
+        </div>
+    </section>
+
+    <section class="sobofertas">
+        <div class="div-botao">
+            <h2>Só as melhores ofertas</h2>
+            <figure class="ofertas flex" id="ofertops">
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img/1299729/5/1299729516G1.jpg"
+                        alt="gift card">
+                    <p>Gift Card Digital App Store R$100</p>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img/1614132/3/1614132374G1.jpg"
+                        alt="iphone">
+                    <p>iPhone 11 64GB Branco iOS 4G Câmera 12MP - Apple</p>
+
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img7/01/00/item/134253/9/134253960G1.jpg"
+                        alt="smartphone samsung">
+                    <p>Smartphone Samsung Galaxy A10 32GB Dual Chip Android 9.0 Tela 6.2" Octa-Core 4G Câmera 13MP
+                        -Preto</p>
+
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img/134240/6/134240675G1.jpg"
+                        alt="tv samsung">
+                    <p>Smart TV LED 43" Samsung 43RU7100 Ultra HD 4K com Conversor Digital 3 HDMI 2 USB Wi-Fi Hdr
+                        Premium Controle Remoto Único e Bluetooth</p>
+
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img/134241/7/134241731G1.jpg"
+                        alt="tv samsung">
+                    <p>Smart TV LED 50" Samsung 50RU7100 Ultra HD 4K com Conversor Digital 3 HDMI 2 USB Wi-Fi Visual
+                        Livre de Cabos Controle Remoto Único e Bluetooth</p>
+
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/offers/01/00/item/133780/8/133780821G1.jpg"
+                        alt="gift card">
+                    <p>Smart TV LED 50" Sony KDL-50W665F Full HD com Conversor Digital 2 HDMI 2 USB Wi-Fi 60Hz - Preta
+                    </p>
+                    <div class="star flex">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/img/1466225/7/1466225797G1.jpg"
+                        alt="iphone">
+                    <p>Console Microsoft Xbox One S 1TB All Digital Edition V2 - Game Minecraft + Game Sea of Thieves +
+                        Voucher Fortnite</p>
+
+                    <div class="star flex">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/oferta/134220/3/134220375G1.jpg"
+                        alt="smartphone samsung">
+                    <p>iPhone 8 Plus 64GB Cinza Tela 5.5" iOS 12 4G Câmera 12MP - Apple</p>
+
+                    <div class="star flex">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://images-submarino.b2w.io/produtos/01/00/image/134362/2/134362251G1.jpg"
+                        alt="tv samsung">
+                    <p>Smart TV QLED 55" Samsung QN55Q70RAGXZD Ultra HD 4K com conversor Digital 4 HDMI 2 USB Wi-Fi
+                        Pontos Quânticos 120Hz- Preta</p>
+
+                    <div class="star flex">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div id="sla">
+                    <img src="https://images-submarino.b2w.io/produtos/imagens/132730056/132730064G1.jpg"
+                        alt="tv samsung">
+                    <p>Livro - A sutil arte de ligar o f*da-se: Uma estratégia inusitada para uma vida melhor</p>
+
+                    <div class="star flex">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </figure>
+            <button class="button-right" onclick="passaDireita()" id="button-right"> <i class="fas fa-chevron-right"></i> </button>
+            <button class="button-left" onclick="passaEsquerda()" id="button-left"> <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>Atendimento 4003-5544</p>
+        <p>Canal de vendas</p>
+        <p>Programa de afiliados</p>
+        <p>Submarino viagens</p>
+        <p>Anuncie</p>
+        <p>Venda no Sub</p>
+        <p>Ame fazer sua parte</p>
+
+    </footer>
+
+</body>
+
+</html>
